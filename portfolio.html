@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+</head>
+<style type="text/css">
+    header {
+        background-attachment:antiquewhite;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+
+    }
+    nav {
+        background-color: antiquewhite;
+        height: 100%;
+        display: flex;
+    }
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    nav li {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0 15px;
+    }
+    nav a {
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><h1>Home</h1><a></li>
+                <li><a href="#about"><h1>About</h1></a></li>
+                <li><a href="#projects"><h1>Projects</h1></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="home">
+        <h2>Welcome to Power Learn Project Africa</h2>
+        <p> We are keen to Craft a learning experience that transcends traditiona boundaries, <br>
+        Fostering acommunity of lifelong learners who drive on challenges and contribute meaningfully to the tech industry. 
+        </p>
+        </div>
+    <div id="About">
+        <h2>About PLP</h2>
+        <p>We train, provide knowledge and opportunities in smart technologies.<br>
+        #1MillionDevs4Africa
+        </p>
+
+    </div>
+    <div id="Projects">
+        <h2>The PLP Projects</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Python Programming</li>
+            <li>Entreprenuership and Personal Development</li>
+            <li>Dart with Flutter</li>
+            <li>Computer Essentials</li>
+            <li>Database</li>
+            <li>Software Engineering</li>
+            <li>AI and machine leaning</li>
+        </ul>
+    </div>
+    <!-- possibility to add some javascript to the code such that the only the selected section from the header is shown-->
+   <!-- <script type="text/javascript">
+    function show(id) {
+  document.getElementById('home').style.display = 'none';
+  document.getElementById('about').style.display = 'none'; 
+  document.getElementById('projects').style.display = 'none';
+  
+  document.getElementById(id).style.display = 'block'; 
+}
+    </script>-->
+</body>
+</html>
